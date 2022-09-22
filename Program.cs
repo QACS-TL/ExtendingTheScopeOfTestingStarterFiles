@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace MovieSelector
 {
     class Program
-    {
+    { 
         static void Main(string[] args)
         {
             MovieDecider movieDecider = new MovieDecider();
