@@ -20,11 +20,11 @@ namespace MovieSelector
 
             if (movies.Count > 0)
             {
-                Console.WriteLine($"The following movies are available to watch this {timeOfDay}:");
+                Console.WriteLine($"The following movies are available to watch tomorrow {timeOfDay}:");
                 movies.ForEach(m => Console.WriteLine(m));
             }
             else
-                Console.WriteLine($"There are no movies are available to watch this {timeOfDay}");
+                Console.WriteLine($"There are no movies are available to watch tomorrow {timeOfDay}");
 
             Console.WriteLine("Hit any key to exit...");
             Console.Read();
